@@ -1,0 +1,167 @@
+body {
+    font-family: 'Pattaya', sans-serif;
+}
+
+header {
+    background: url(imagens/bg.jpg);
+    padding: 20px 0;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo-topo {
+    width: 200px;
+    padding-left: 100px;    
+}
+
+nav {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    font-size: 1.7em;
+}
+
+nav li {
+    display: inline;
+    margin: 0 5px 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+nav a:hover {
+    color: lightgray;
+    font-size: 1.1em;
+}
+
+.logo-footer {
+    width: 150px;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 15px 0;
+    color: #FFFFFF
+}
+
+/* Página inicial */
+
+body {
+    background: url(imagens/fundobaixo.jpg) rgba(255, 255, 255, 0.2);
+    background-size: 1920px;
+    background-position: 0px 30px;
+    
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    padding-top: 30px;
+    vertical-align: center;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.picole {
+    width: 160px;
+    float: left;
+    margin: 0 20px 20px 0;
+    display: inline-block
+}
+
+.lista-mapas {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0
+    opacity: 0.7;
+    
+}
+
+.lista-mapas li {
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    vertical-align: top;
+    margin: 0 3%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transition: 500ms;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 10px 10px 10px 0 black;
+}
+
+.lista-mapas h2 {
+    margin: 20px 0;
+}
+
+.lista-mapas li:hover {
+    border-color: orange;
+    font-size: 26px;
+}
+
+.mapas {
+    width: 150px
+}
+
+.diferencial {
+    padding: 3em 0;
+}
+
+.conteudo-diferencial {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.itens {
+    padding-top: 1em;
+}
+.itens:before {
+	content: "🟊";
+}
+
+@media screen and (max-width: 480px) {
+	.menu, .principal, .conteudo-diferencial, .lista-mapas {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}
